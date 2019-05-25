@@ -1,0 +1,38 @@
+[66.593408585] 2019-05-25 17:48:32,573 - INFO - launcher: Starting sanity checks
+[68.544149399] 2019-05-25 17:48:32,575 - INFO - launcher: Checking for Python 3.5+
+[69.541454315] 2019-05-25 17:48:32,576 - INFO - launcher: Checking console encoding
+[69.541454315] 2019-05-25 17:48:32,576 - INFO - launcher: Setting console encoding to UTF-8
+[69.541454315] 2019-05-25 17:48:32,576 - INFO - launcher: Ensuring we're in the right environment
+[119.092464447] 2019-05-25 17:48:32,626 - INFO - launcher: Adding local bins/ folder to path
+[5530.768632889] 2019-05-25 17:48:38,038 - INFO - launcher: Required checks passed.
+[5531.765222549] 2019-05-25 17:48:38,039 - INFO - launcher: Optional checks passed.
+[5532.762527466] 2019-05-25 17:48:38,040 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[14.7400009632110596] 2019-05-25 17:48:47,247 - WARNING - musicbot.config | In config.py::MainThread(9360), line 120 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[14.7729127407073975] 2019-05-25 17:48:47,280 - INFO - musicbot.config | In config.py::MainThread(9360), line 131 in run_checks: Using i18n: config/i18n/en.json
+[14.7872846126556396] 2019-05-25 17:48:47,294 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 226 in _setup_logging: Set logging level to INFO
+[14.8011875152587891] 2019-05-25 17:48:47,308 - DEBUG - musicbot.json | In json.py::MainThread(9360), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[15.0215809345245361] 2019-05-25 17:48:47,528 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 91 in __init__: Starting MusicBot release-120519
+[15.0233118534088135] 2019-05-25 17:48:47,530 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 97 in __init__: Loaded autoplaylist with 2530 entries
+[19.5204823017120361] 2019-05-25 17:48:52,027 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 949 in on_ready: Connection established, ready to go.
+[19.5204823017120361] 2019-05-25 17:48:52,027 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 340 in _cache_app_info: Caching app info
+[19.8138136863708496] 2019-05-25 17:48:52,321 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 771 in _scheck_ensure_env: Ensuring data folders exist
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 787 in _scheck_server_permissions: Checking server permissions
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 791 in _scheck_autoplaylist: Auditing autoplaylist
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 795 in _scheck_configs: Validating config
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.config | In config.py::MainThread(9360), line 228 in async_validate: Validating options...
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.config | In config.py::MainThread(9360), line 242 in async_validate: Acquired owner id via API
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.bot | In bot.py::MainThread(9360), line 798 in _scheck_configs: Validating permissions config
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9360), line 94 in async_validate: Validating permissions...
+[19.8935356140136719] 2019-05-25 17:48:52,400 - DEBUG - musicbot.permissions | In permissions.py::MainThread(9360), line 98 in async_validate: Fixing automatic owner group
+[19.8935356140136719] 2019-05-25 17:48:52,400 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 966 in on_ready: Connected: 571278996583743488/MusicEY#3184
+[19.8954765796661377] 2019-05-25 17:48:52,402 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 974 in on_ready: Owner:     372052771798515723/4Dnk GT#8924
+
+[19.8954765796661377] 2019-05-25 17:48:52,402 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 977 in on_ready: Guild List:
+[19.8964750766754150] 2019-05-25 17:48:52,403 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 981 in on_ready:  - 4Dnk Support
+[19.8964750766754150] 2019-05-25 17:48:52,403 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 981 in on_ready:  - 4Dnk GT
+[19.8974723815917969] 2019-05-25 17:48:52,404 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 1037 in on_ready: Not bound to any text channels
+[19.8974723815917969] 2019-05-25 17:48:52,404 - INFO - musicbot.bot | In bot.py::MainThread(9360), line 1063 in on_ready: Not autojoining any voice channels
+[19.8974723815917969] 2019-05-25 17:48:52,404 - WARNING - musicbot.bot | In bot.py::MainThread(9360), line 1105 in on_ready: Your config file is missing some options. If you have recently updated, check the example_options.ini file to see if there are new options available to you. The options missing are: {'dmnowplaying', 'disablenowplayingautomatic'}
